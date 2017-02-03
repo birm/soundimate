@@ -5,10 +5,9 @@
  * @param {String} [sound_theme] - the name of the sound theme to use to replace theme sounds (optional)
  */
 class Soundimate{
-    themes = ['cafe', 'fluid', 'mechanical', 'minimalist', 'paper'];
-
     constuctor(theme, sound_theme=0){
         //validate the theme from the list
+        this.themes = themes = ['cafe', 'fluid', 'mechanical', 'minimalist', 'paper'];
         if (!(this.themes.includes(theme))){
             throw new Error("Unrecognized theme used for Soundimate.")
         }
