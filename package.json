@@ -1,0 +1,28 @@
+{
+  "name": "soundimate",
+  "version": "0.0.1",
+  "description": "A thematic sound and animation manager",
+  "main": "soundimate.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birm/soundimate.git"
+  },
+  "keywords": [
+    "sound",
+    "animation",
+    "theme",
+    "UI",
+    "user",
+    "UX",
+    "experience"
+  ],
+  "author": "Ryan Birmingham",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/birm/soundimate/issues"
+  },
+  "homepage": "https://github.com/birm/soundimate#readme"
+}

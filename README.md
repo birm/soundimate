@@ -1,2 +1,2 @@
 # soundimate
-Sounds and Animations to enhance UX
+A thematic sound and animation manager
