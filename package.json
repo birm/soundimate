@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "A thematic sound and animation manager",
   "devDependencies": {
-      "tape" : "latest",
-      "jsdoc" : "latest",
-      "gulp-conventional-changelog" : "latest",
-      "gulp-jsdoc" : "latest",
-    },
+    "gulp": "^3.9.1",
+    "gulp-conventional-changelog": "latest",
+    "gulp-jsdoc": "latest",
+    "jsdoc": "^3.4.3",
+    "tape": "latest"
+  },
   "main": "soundimate.js",
   "scripts": {
     "test": "node tests.js"
