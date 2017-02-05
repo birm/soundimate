@@ -5,7 +5,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-conventional-changelog": "latest",
-    "gulp-jsdoc": "latest",
+    "gulp-jsdoc": "^0.1.5",
     "jsdoc": "^3.4.3",
     "tape": "latest"
   },
