@@ -2,7 +2,7 @@
  * @constructor
  * @param {String} theme - the name of the theme to use for sound effects
  */
-class Soundimate {
+class soundimate {
     constuctor(theme) {
         //validate the theme from the list
         this.themes = ['cafe', 'fluid', 'mechanical', 'minimalist', 'paper', 'wood'];
@@ -25,3 +25,5 @@ class Soundimate {
         sound.play();
     }
 }
+
+module.exports = soundimate;
