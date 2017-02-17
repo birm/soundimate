@@ -13,4 +13,11 @@ class Soundimate{
         this.theme = theme;
         }
     }
+    //sounds
+
+    // Error
+    // Success
+    // Minor
+    // Major
+    // Soft
 }
