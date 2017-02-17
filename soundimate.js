@@ -12,17 +12,16 @@ class Soundimate {
         }
         this.theme = theme;
     }
-}
 
-/** play a sound in the theme
- * @param {String} noise - the noise type to play on the theme.
- */
-play(noise) {
-    if (!(this.noises.includes(noise.toLowerCase()))) {
-        throw new Error("Unrecognized noise type used for Soundimate.play().")
+    /** play a sound in the theme
+     * @param {String} noise - the noise type to play on the theme.
+     */
+    play(noise) {
+        if (!(this.noises.includes(noise.toLowerCase()))) {
+            throw new Error("Unrecognized noise type used for Soundimate.play().")
+        }
+        var filename = 'sounds/' + this.theme.toLowerCase() + '/' + noise.toLowerCase();
+        var sound = new Audio(filename);
+        sound.play();
     }
-    var filename = 'sounds/' + this.theme.toLowerCase() + '/' + noise.toLowerCase();
-    var sound = new Audio(filename);
-    sound.play();
-}
 }
