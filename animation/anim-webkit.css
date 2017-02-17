@@ -1,0 +1,24 @@
+.anim-nod{
+  animation: nod 1s linear 0s alternate 1;
+}
+.anim-shake{
+  -webkit-animation: shake 20ms linear 0s alternate 5;
+}
+
+.anim-buzz{
+  -webkit-animation: shake 5ms linear 0s alternate 20;
+}
+
+@-webkit-keyframes shake {
+    0%   {left:0px; top:0px;}
+    25%  {left:5px; top:0px;}
+    50%  {left:5px; top:5px;}
+    75%  {left:0px; top:5px;}
+    100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes nod {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:5px;}
+    100% {left:0px; top:0px;}
+}
