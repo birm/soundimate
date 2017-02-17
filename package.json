@@ -1,6 +1,6 @@
 {
   "name": "soundimate",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A thematic sound and animation manager",
   "devDependencies": {
     "gulp": "^3.9.1",
