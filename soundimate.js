@@ -20,7 +20,7 @@ class soundimate {
         if (!(this.noises.includes(noise.toLowerCase()))) {
             throw new Error("Unrecognized noise type used for Soundimate.play().")
         }
-        var filename = 'sounds/' + this.theme.toLowerCase() + '/' + noise.toLowerCase();
+        var filename = 'sounds/' + this.theme.toLowerCase() + '/' + noise.toLowerCase() + '.wav';
         var sound = new Audio(filename);
         sound.play();
     }
