@@ -24,6 +24,15 @@ class soundimate {
         var sound = new Audio(filename);
         sound.play();
     }
+    
+    /** Animate an element
+     * @param {int} speed - a number from 1 to 10 for the speed of the animation
+     * @param {int} scale - a number from 1 to 10 for the intensity of the animation
+     * @param {str} target - the class to animate
+     */
+    animate(speed, scale, target){
+        let i = 0; // TODO
+    }
 }
 
 module.exports = soundimate;
